@@ -12,7 +12,7 @@ sudo apt-get install libqrencode-dev -y
 sudo apt-get install make -y
 sudo apt-get install make-guile -y
 
-./install_db.sh
+./bro_qtbuild/install_db.sh
 
 git clone https://github.com/thebitradio/Bitradio
 
