@@ -17,4 +17,28 @@ git clone https://github.com/MinseokOh/bro_qtbuild.git
 Bitradiod #to run wallet
 ```
 
+## Edit conf
+
+Open conf file 
+```sh
+vi ./.Bitradio/Bitradio.conf
+```
+
+Paste conf
+```sh
+rpcuser=[rpcusername]
+rpcpassword[rpcpassword]
+rpcallowip=127.0.0.1
+daemon=1
+server=1
+listen=1
+masternode=1
+masternodeprivkey=[masternodegenkey]
+externalip=[serverip]
+```
+
+```sh
+Bitradiod #to run wallet
+```
+
 that's all! enjoy masternode 
