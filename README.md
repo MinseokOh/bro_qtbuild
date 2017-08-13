@@ -27,7 +27,7 @@ vi ./.Bitradio/Bitradio.conf
 Paste conf
 ```sh
 rpcuser=[rpcusername]
-rpcpassword[rpcpassword]
+rpcpassword=[rpcpassword]
 rpcallowip=127.0.0.1
 daemon=1
 server=1
