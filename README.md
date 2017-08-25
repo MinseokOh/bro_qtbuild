@@ -1,5 +1,7 @@
 ## Bitrad.io Install&Build Shell
 
+![alt text](https://chainz.cryptoid.info/logo/bro.png)
+
 You can find Bitrad.io documents from [Bitrad.io Github](https://github.com/thebitradio/Bitradio/tree/master/doc)
 
 System Requirements
