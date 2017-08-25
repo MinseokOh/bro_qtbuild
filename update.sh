@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd ~/
+
 ROOT=$(pwd)
 
 pkill Bitradiod
