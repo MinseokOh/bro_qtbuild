@@ -41,4 +41,11 @@ externalip=[serverip]
 Bitradiod #to run wallet
 ```
 
+## How to update 
+```sh
+cd bro_qtbuild
+git pull
+./update.sh
+```
+
 that's all! enjoy masternode 
