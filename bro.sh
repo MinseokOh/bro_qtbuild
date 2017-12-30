@@ -1,5 +1,7 @@
 #!/bin/bash
 
+bro_CONF="~/.Bitradiod/Bitradio.conf"
+
 function bro_dependency() {
 	echo "$(tput setaf 1)[INSTALL] BRO Dependency $(tput sgr0)"
 	sudo apt-get update

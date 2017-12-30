@@ -10,13 +10,29 @@ System Requirements
  * Minimum Storage 10GB
  * Minimum Memory 2GB
 
-## How to use
+## Commands
 
 ```sh
-git clone https://github.com/MinseokOh/bro_qtbuild.git
-./bro_qtbuild/install.sh
+#install wallet
 
-Bitradiod #to run wallet
+git clone https://github.com/MinseokOh/bro_qtbuild.git
+cd bro_qtbuild
+bash bro.sh install
+
+#run wallet 
+
+cd bro_qtbuild
+bash bro.sh run
+
+#stop wallet
+
+cd bro_qtbuild
+bash bro.sh stop
+
+$update wallet
+
+cd bro_qtbuild
+bash bro.sh update
 ```
 
 ## Edit conf
@@ -37,17 +53,6 @@ listen=1
 masternode=1
 masternodeprivkey=[masternodegenkey]
 externalip=[serverip]
-```
-
-```sh
-Bitradiod #to run wallet
-```
-
-## How to update 
-```sh
-cd bro_qtbuild
-git pull
-./update.sh
 ```
 
 that's all! enjoy masternode 
