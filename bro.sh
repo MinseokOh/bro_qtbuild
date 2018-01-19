@@ -78,7 +78,7 @@ function bro_update() {
 }
 
 function bro_conf() {
-	echo "~/.Bitradiod/Bitradio.conf"
+	echo "$HOME/.Bitradiod/Bitradio.conf"
 }
 
 COMMAND=$1
