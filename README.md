@@ -1,3 +1,5 @@
+[DEPRECATED]
+
 ## Bitrad.io Install&Build Shell
 
 ![alt text](https://chainz.cryptoid.info/logo/bro.png)
